@@ -1,0 +1,28 @@
+@mixin pageWidth {
+  width: min(100%, 1350px);
+  margin: 0 auto;
+  padding-inline: var(--page-padding);
+}
+
+@mixin gridLines {
+  background-image:
+    linear-gradient(var(--color-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@mixin glass {
+  background: color-mix(in srgb, var(--color-surface) 82%, transparent);
+  border: 1px solid var(--color-line);
+  backdrop-filter: blur(20px) saturate(1.15);
+  box-shadow: var(--shadow-soft);
+}
+
+@mixin hoverLift {
+  transition: transform .45s var(--ease), border-color .45s var(--ease), background-color .45s var(--ease), box-shadow .45s var(--ease);
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-glow);
+  }
+}

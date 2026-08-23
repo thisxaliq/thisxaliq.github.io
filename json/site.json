@@ -1,0 +1,117 @@
+{
+  "person": {
+    "name": "Abdulxaliq Eyvazov",
+    "role": "Front-end / Game Developer / Dev",
+    "location": "Azerbaijan",
+    "email": "xaliqq.08@gmail.com",
+    "socials": {
+      "github": "https://github.com/thisxaliq",
+      "linkedin": "https://www.linkedin.com/in/abdulxaliq-eyvazov-1136a531a/",
+      "instagram": "https://www.instagram.com/his.nonn/"
+    }
+  },
+  "availability": {
+    "status": "available"
+  },
+  "skills": [
+    {
+      "name": "MS Office",
+      "level": 90,
+      "type": "office",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
+    },
+    {
+      "name": "Excel",
+      "level": 88,
+      "type": "office",
+      "icon": "https://img.icons8.com/?size=96&id=aMyOMzfawIEP&format=png"
+    },
+    {
+      "name": "Word",
+      "level": 87,
+      "type": "office",
+      "icon": "https://img.icons8.com/?size=100&id=11571&format=png"
+    },
+    {
+      "name": "Front-end",
+      "level": 92,
+      "type": "web",
+      "icon": "https://img.icons8.com/?size=100&id=23028&format=png"
+    },
+    {
+      "name": "SCSS",
+      "level": 91,
+      "type": "design",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+    },
+    {
+      "name": "React",
+      "level": 82,
+      "type": "web",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "name": "JavaScript",
+      "level": 72,
+      "type": "web",
+      "icon": "https://img.icons8.com/?size=100&id=39854&format=png"
+    },
+    {
+      "name": "Godot",
+      "level": 84,
+      "type": "game",
+      "icon": "https://godotengine.org/assets/press/icon_monochrome_light.svg"
+    },
+    {
+      "name": "Python",
+      "level": 67,
+      "type": "code",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    {
+      "name": "GitHub",
+      "level": 82,
+      "type": "workflow",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    }
+  ],
+  "education": [
+    {
+      "id": "access"
+    },
+    {
+      "id": "university"
+    }
+  ],
+  "projects": [],
+  "projectIdeas": [
+    {
+      "title": "Playable UI",
+      "meta": "interactive web experiment"
+    },
+    {
+      "title": "Godot Lab",
+      "meta": "game systems + prototypes"
+    },
+    {
+      "title": "Future Journal",
+      "meta": "personal digital product"
+    }
+  ],
+  "theme": {
+    "radii": {
+      "small": "14px",
+      "medium": "28px",
+      "large": "48px"
+    }
+  },
+  "animation": {
+    "loader": 900,
+    "fast": 260,
+    "normal": 620,
+    "slow": 1200,
+    "marquee": 18000,
+    "revealOffset": 40,
+    "cursor": 120
+  }
+}

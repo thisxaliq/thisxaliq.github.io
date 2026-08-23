@@ -1,0 +1,117 @@
+{
+  "lang": "az",
+  "meta": {
+    "siteTitle": "Abdulxaliq Eyvazov — Front-end & Game Developer",
+    "description": "Abdulxaliq Eyvazov — front-end və game developer portfolio."
+  },
+  "nav": {
+    "about": "Haqqımda",
+    "skills": "Bacarıqlar",
+    "journey": "Təhsil",
+    "projects": "Layihələr",
+    "contact": "Əlaqə"
+  },
+  "labels": {
+    "about": "Haqqımda",
+    "skills": "Bacarıqlar",
+    "journey": "Təhsil",
+    "projects": "Layihələr",
+    "contact": "Əlaqə"
+  },
+  "hero": {
+    "hello": "Salam, mən Abdulxaliq.",
+    "title": "FRONT-END\n& GAME\nDEVELOPER",
+    "sub": "React, JavaScript, SCSS və Godot ilə işləyirəm.",
+    "primary": "Davam et",
+    "secondary": "Əlaqə",
+    "location": "Azərbaycan / Xırdalan",
+    "time": "Yerli vaxt",
+    "status": "Mövcuddur",
+    "scroll": "Aşağı sürüşdür"
+  },
+  "ticker": [
+    "MS OFFICE",
+    "EXCEL",
+    "WORD",
+    "FRONT-END",
+    "GODOT",
+    "REACT",
+    "SCSS",
+    "JAVASCRIPT",
+    "PYTHON",
+    "GITHUB"
+  ],
+  "about": {
+    "lead": "Front-end və game development üzrə öyrənən developerəm.",
+    "copy": "IT üzrə universitetin 1-ci kursunda oxuyuram. Web tərəfdə React, JavaScript və SCSS; oyun tərəfdə isə əsasən Godot istifadə edirəm. Access Academy front-end kursunu bitirmişəm. Hazırda açıq layihəm yoxdur — bu səhifə özümün portfolio mühitimdir.",
+    "facts": [
+      {
+        "label": "Dillər",
+        "value": "AZ / TR / EN"
+      },
+      {
+        "label": "İstiqamət",
+        "value": "Web + Game"
+      },
+      {
+        "label": "Təhsil",
+        "value": "IT / 1-ci kurs"
+      },
+      {
+        "label": "Status",
+        "value": "Mövcuddur"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Bacarıqlar",
+    "copy": "Hazırkı özünüqiymətləndirmə səviyyələrim.",
+    "hover": "Hover",
+    "level": "Səviyyə"
+  },
+  "journey": {
+    "education": "Təhsil",
+    "items": [
+      {
+        "id": "access",
+        "institution": "Access Academy",
+        "role": "Frontend Kursu",
+        "description": "Sertifikatlı frontend development kursu. HTML, CSS, JS və müasir web praktikalari.",
+        "year": "2024-2025"
+      },
+      {
+        "id": "university",
+        "institution": "Universitet",
+        "role": "IT üzrə 1-ci kurs tələbəsi",
+        "description": "İnformasiya Texnologiyaları ixtisası. Proqramlaşdırma, alqoritmlər və sistemlər.",
+        "year": "2025 - davam edir"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Layihələr",
+    "emptyTitle": "Tezliklə...",
+    "emptyCopy": "Bu portfolionu özüm yazdım – interaktiv, animasiyalı və tam JSON əsaslı. Gələcək layihələr burada olacaq.",
+    "ideas": "Növbəti istiqamətlər"
+  },
+  "contact": {
+    "eyebrow": "Əlaqə",
+    "title": "Yaza bilərsən",
+    "signal": "Cavab mümkün qədər tez göndəriləcək.",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı"
+  },
+  "footer": {
+    "left": "Abdulxaliq Eyvazov",
+    "center": "Front-end & Game Developer",
+    "right": "© 2026"
+  },
+  "ui": {
+    "dark": "DARK",
+    "light": "LIGHT",
+    "menu": "MENU",
+    "close": "CLOSE",
+    "next": "Növbəti",
+    "previous": "Əvvəlki"
+  }
+}

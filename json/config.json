@@ -1,0 +1,8 @@
+{
+  "language": [
+    {"dil": "az", "path": "json/language/az.json"},
+    {"dil": "tr", "path": "json/language/tr.json"},
+    {"dil": "en", "path": "json/language/en.json"}
+  ],
+  "defaultLanguage": "az"
+}

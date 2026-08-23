@@ -1,0 +1,213 @@
+@media (max-width: 960px) {
+  .header {
+    grid-template-columns: 1fr auto;
+  }
+
+  .header .header__nav {
+    display: none !important;
+  }
+
+  .header .header__tools .header__menu {
+    display: inline-flex !important;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  /* Mobile menu only exists in the layout below 960px */
+  .mobileMenu {
+    display: flex;
+  }
+
+  body.is-menu-open .mobileMenu {
+    display: flex !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: none !important;
+  }
+
+  .hero__orb {
+    width: 52vw;
+    right: -8%;
+    top: 20%;
+    opacity: .55;
+  }
+
+  .hero__sub,
+  .hero__actions {
+    margin-left: 0;
+  }
+
+  .manifesto__content {
+    grid-template-columns: 1fr;
+  }
+
+  .manifesto__copy {
+    align-self: auto;
+  }
+
+  .manifesto__facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skillList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skillScene {
+    min-height: 400px;
+  }
+
+  .skillSection__intro,
+  .projects__header,
+  .experience__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience__rail {
+    margin-left: 20px;
+    padding-left: 36px;
+  }
+
+  .experience__dot {
+    left: -36px;
+  }
+
+  .projects__ideas {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    padding-block: 35px;
+  }
+
+  .footer> :last-child,
+  .footer> :nth-child(2) {
+    text-align: left;
+  }
+}
+
+@media (min-width: 961px) {
+
+  .mobileMenu,
+  .mobileMenu.is-open {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    transform: translateY(-150%) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --header-height: 68px;
+  }
+
+  .hero {
+    padding-top: calc(var(--header-height) + 24px);
+  }
+
+  .metaRow {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .metaRow span:nth-child(2),
+  .metaRow span:nth-child(3) {
+    text-align: left;
+  }
+
+  .hero__stage {
+    min-height: calc(100svh - var(--header-height) - 80px);
+  }
+
+  .hero__title {
+    max-width: 100%;
+    font-size: clamp(51px, 16vw, 90px);
+  }
+
+  .hero__orb {
+    width: 70vw;
+    right: -25%;
+    top: 25%;
+  }
+
+  .hero__hint {
+    display: none;
+  }
+
+  .manifesto__lead {
+    max-width: 100%;
+  }
+
+  .manifesto__facts {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .manifesto__fact {
+    min-height: 120px;
+    padding: 18px;
+  }
+
+  .manifesto__fact-value {
+    margin-top: 28px;
+    font-size: 17px;
+  }
+
+  .skillScene {
+    min-height: 340px;
+    margin-top: 62px;
+  }
+
+  .skillScene::before {
+    width: 90vw;
+  }
+
+  .skillScene::after {
+    width: 56vw;
+  }
+
+  .skillList {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .experience__rail {
+    margin-left: 12px;
+    padding-left: 32px;
+  }
+
+  .experience__dot {
+    left: -32px;
+  }
+
+  .experience__rail {
+    left: 1.25rem;
+  }
+
+  .contact__title {
+    font-size: clamp(68px, 20vw, 115px);
+  }
+
+  .cursor {
+    display: none;
+  }
+
+  .langPicker__btn {
+    padding: 5px 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}

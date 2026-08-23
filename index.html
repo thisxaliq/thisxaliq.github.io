@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070708">
+  <meta name="description" content="">
+  <title></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+  <div class="pageLoader" data-page-loader>
+    <div class="pageLoader__number" data-loader-number></div>
+    <div class="pageLoader__line"><span data-loader-line></span></div>
+  </div>
+
+  <div class="siteNoise" aria-hidden="true"></div>
+  <div class="cursor cursor--dot" data-cursor-dot></div>
+  <div class="cursor cursor--ring" data-cursor-ring></div>
+
+  <header class="header" data-header>
+    <div class="header__logo"><a href="#top" data-scroll-link data-site-name></a></div>
+    <nav class="header__nav" data-nav></nav>
+    <div class="header__tools">
+      <div class="langPicker" data-language-picker></div>
+      <button class="header__tool" type="button" data-theme-toggle></button>
+      <button class="header__tool header__menu" type="button" data-menu-toggle></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="mainSection hero" id="hero" data-section="hero">
+      <div class="hero__meta metaRow">
+        <span data-location></span>
+        <span data-local-time></span>
+        <span data-status></span>
+      </div>
+
+      <div class="hero__stage">
+        <div class="hero__grid"></div>
+        <div class="hero__orb" data-hero-orb></div>
+        <div class="hero__hello" data-hero-hello></div>
+        <h1 class="hero__title" data-hero-title></h1>
+        <p class="hero__sub" data-hero-sub></p>
+        <div class="hero__actions" data-hero-actions></div>
+        <div class="hero__hint" data-scroll-hint></div>
+      </div>
+
+      <div class="hero__ticker ticker" data-hero-ticker></div>
+    </section>
+
+    <section class="mainSection manifesto" id="about" data-section="about">
+      <div class="sectionTop">
+        <span class="sectionTop__index" data-section-index></span>
+        <span data-section-label="about"></span>
+      </div>
+      <div class="manifesto__content">
+        <div class="manifesto__lead" data-about-lead></div>
+        <div class="manifesto__copy" data-about-copy></div>
+        <div class="manifesto__facts" data-about-facts></div>
+      </div>
+    </section>
+
+    <section class="mainSection skillSection" id="skills" data-section="skills">
+      <div class="sectionTop">
+        <span class="sectionTop__index" data-section-index></span>
+        <span data-section-label="skills"></span>
+      </div>
+      <div class="skillSection__intro">
+        <h2 class="megaTitle" data-skills-title></h2>
+        <p data-skills-copy></p>
+      </div>
+      <div class="skillList" data-skill-list></div>
+    </section>
+
+    <section class="mainSection experience" id="journey" data-section="journey">
+      <div class="sectionTop">
+        <span class="sectionTop__index" data-section-index></span>
+        <span data-section-label="journey"></span>
+      </div>
+      <div class="experience__header">
+        <h2 class="megaTitle" data-journey-title></h2>
+      </div>
+      <div class="experience__rail" data-experience-rail></div>
+    </section>
+
+    <section class="mainSection projects" id="projects" data-section="projects">
+      <div class="sectionTop">
+        <span class="sectionTop__index" data-section-index></span>
+        <span data-section-label="projects"></span>
+      </div>
+      <div class="projects__header">
+        <h2 class="megaTitle" data-projects-title></h2>
+      </div>
+      <div class="projects__empty" data-projects-empty></div>
+      <div class="projects__ideas" data-project-ideas></div>
+    </section>
+
+    <section class="mainSection contact" id="contact" data-section="contact">
+      <div class="sectionTop">
+        <span class="sectionTop__index" data-section-index></span>
+        <span data-section-label="contact"></span>
+      </div>
+      <div class="contact__stage">
+        <div class="contact__eyebrow" data-contact-eyebrow></div>
+        <h2 class="contact__title" data-contact-title></h2>
+        <button class="contact__mail" data-copy-email type="button"></button>
+        <div class="contact__links" data-contact-links></div>
+        <div class="contact__signal" data-contact-signal></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-footer>
+    <div data-footer-left></div>
+    <div data-footer-center></div>
+    <div data-footer-right></div>
+  </footer>
+
+  <div class="mobileMenu" data-mobile-menu>
+    <div class="mobileMenu__top">
+      <span data-mobile-name></span>
+      <button type="button" data-mobile-close></button>
+    </div>
+    <div class="mobileMenu__links" data-mobile-links></div>
+  </div>
+
+  <div class="toast" data-toast></div>
+
+  <script type="module" src="js/load.js"></script>
+</body>
+</html>

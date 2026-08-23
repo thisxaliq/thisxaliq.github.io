@@ -1,0 +1,98 @@
+[data-reveal] {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: opacity .8s var(--ease), transform .8s var(--ease);
+}
+
+[data-reveal].is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+@keyframes marquee {
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes orbFloat {
+
+    0%,
+    100% {
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate3d(-28px, 26px, 0) scale(1.06);
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinReverse {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes noise {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(1%, -1%);
+    }
+
+    50% {
+        transform: translate(-1%, 1%);
+    }
+
+    75% {
+        transform: translate(1%, 1%);
+    }
+
+    100% {
+        transform: translate(-1%, -1%);
+    }
+}
+
+@keyframes pulseDot {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-accent) 0%, transparent);
+    }
+
+    50% {
+        box-shadow: 0 0 0 12px color-mix(in srgb, var(--color-accent) 12%, transparent);
+    }
+}
+
+.statusDot {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    margin-right: 7px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    animation: pulseDot 1.8s infinite;
+}
+
+@keyframes skillLineFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
