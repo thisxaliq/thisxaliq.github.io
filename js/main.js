@@ -9,22 +9,19 @@ export async function loadPortfolioData() {
   ]);
 
   const storedLanguage = localStorage.getItem('portfolio-language');
-  const initialLanguage = config.language.some((item) => item.dil === storedLanguage)
-    ? storedLanguage
-    : config.defaultLanguage;
+  const initialLanguage = config.language.some((item) => item.dil === storedLanguage) ? storedLanguage : config.defaultLanguage;
   const languagePath = config.language.find((item) => item.dil === initialLanguage)?.path || config.language[0].path;
   const language = await fetch(languagePath).then((response) => response.json());
 
   window.PORTFOLIO = { config, site, language };
   document.documentElement.lang = language.lang;
   document.documentElement.dataset.theme = localStorage.getItem('portfolio-theme') || 'dark';
-  // Do not force site.json colors as inline styles — they break light mode.
-  // Only apply optional radii from site.json.
   applyRadii(site.theme);
 
   renderAll();
   bootAnimations();
   bootInteractions();
+
 }
 
 export async function changeLanguage(languageCode) {

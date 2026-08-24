@@ -54,7 +54,7 @@ function renderHero(site, t) {
 }
 
 function renderAbout(t) {
-  setText('[data-section-label="about"]', t.labels.about);
+  setText('[data-section-label="about"]', t.nav.about);
   setText('[data-about-lead]', t.about.lead);
   setText('[data-about-copy]', t.about.copy);
   document.querySelector('[data-about-facts]').innerHTML = t.about.facts.map((fact) => `
@@ -65,7 +65,7 @@ function renderAbout(t) {
 }
 
 function renderSkills(site, t) {
-  setText('[data-section-label="skills"]', t.labels.skills);
+  setText('[data-section-label="skills"]', t.nav.skills);
   setText('[data-skills-title]', t.skills.title);
   setText('[data-skills-copy]', t.skills.copy);
   document.querySelector('[data-skill-list]').innerHTML = site.skills.map((skill, index) => `
@@ -80,8 +80,8 @@ function renderSkills(site, t) {
 }
 
 function renderJourney(site, t) {
-  setText('[data-section-label="journey"]', t.labels.journey);
-  setText('[data-journey-title]', t.journey.education || t.labels.journey);
+  setText('[data-section-label="journey"]', t.nav.journey);
+  setText('[data-journey-title]', t.journey.education || t.nav.journey);
   const rail = document.querySelector('[data-experience-rail]');
   const items = t.journey?.items || site.education || [];
   rail.innerHTML = items.map((item) => `
@@ -98,7 +98,7 @@ function renderJourney(site, t) {
 }
 
 function renderProjects(site, t) {
-  setText('[data-section-label="projects"]', t.labels.projects);
+  setText('[data-section-label="projects"]', t.nav.projects);
   setText('[data-projects-title]', t.projects.title);
 
   const emptyNode = document.querySelector('[data-projects-empty]');
@@ -130,7 +130,7 @@ function renderProjects(site, t) {
 }
 
 function renderContact(site, t) {
-  setText('[data-section-label="contact"]', t.labels.contact);
+  setText('[data-section-label="contact"]', t.nav.contact);
   setText('[data-contact-eyebrow]', t.contact.eyebrow);
   setText('[data-contact-title]', t.contact.title);
   const mailButton = document.querySelector('[data-copy-email]');

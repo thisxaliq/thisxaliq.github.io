@@ -107,9 +107,9 @@ main {
 .hero__title {
   margin: 0;
   white-space: pre-line;
-  font: 900 clamp(54px, 10.7vw, 190px)/.79 var(--font-display);
+  font: 900 clamp(94px, 7.7vw, 152px)/0.79 var(--font-display);
   letter-spacing: -.075em;
-  max-width: 7.5ch;
+  max-width: 10ch;
   text-transform: uppercase;
   transform: translateZ(0);
 }

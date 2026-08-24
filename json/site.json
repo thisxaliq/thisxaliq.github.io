@@ -16,86 +16,80 @@
   "skills": [
     {
       "name": "MS Office",
-      "level": 90,
+      "level": 85,
       "type": "office",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
     },
     {
       "name": "Excel",
-      "level": 88,
+      "level": 85,
       "type": "office",
       "icon": "https://img.icons8.com/?size=96&id=aMyOMzfawIEP&format=png"
     },
     {
       "name": "Word",
-      "level": 87,
+      "level": 90,
       "type": "office",
       "icon": "https://img.icons8.com/?size=100&id=11571&format=png"
     },
     {
       "name": "Front-end",
-      "level": 92,
+      "level": 75,
       "type": "web",
       "icon": "https://img.icons8.com/?size=100&id=23028&format=png"
     },
     {
       "name": "SCSS",
-      "level": 91,
+      "level": 80,
       "type": "design",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
     },
     {
       "name": "React",
-      "level": 82,
+      "level": 85,
       "type": "web",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     {
       "name": "JavaScript",
-      "level": 72,
+      "level": 55,
       "type": "web",
       "icon": "https://img.icons8.com/?size=100&id=39854&format=png"
     },
     {
       "name": "Godot",
-      "level": 84,
+      "level": 95,
       "type": "game",
       "icon": "https://godotengine.org/assets/press/icon_monochrome_light.svg"
     },
     {
       "name": "Python",
-      "level": 67,
+      "level": 75,
       "type": "code",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
     },
     {
       "name": "GitHub",
-      "level": 82,
+      "level": 90,
       "type": "workflow",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
     }
   ],
   "education": [
     {
-      "id": "access"
+      "id": "acces-academy"
     },
     {
       "id": "university"
     }
   ],
-  "projects": [],
+  "projects": [
+    
+  ],
   "projectIdeas": [
     {
-      "title": "Playable UI",
-      "meta": "interactive web experiment"
-    },
-    {
-      "title": "Godot Lab",
-      "meta": "game systems + prototypes"
-    },
-    {
-      "title": "Future Journal",
-      "meta": "personal digital product"
+      "title": "Name",
+      "meta": "..."
     }
   ],
   "theme": {

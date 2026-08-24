@@ -45,7 +45,13 @@ function runLoader() {
     number.textContent = `${String(progress).padStart(3, '0')}%`;
     line.style.width = `${progress}%`;
     if (progress < 100) requestAnimationFrame(tick);
-    else setTimeout(() => loader.classList.add('is-done'), 120);
+    else {
+      setTimeout(() => loader.classList.add('is-done'), 120);
+      const p = document.querySelector('[onload-js]')
+      p.innerHTML = "";
+      console.log(p)
+    }
+  
   };
 
   requestAnimationFrame(tick);

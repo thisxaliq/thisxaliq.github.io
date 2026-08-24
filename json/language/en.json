@@ -1,8 +1,8 @@
 {
   "lang": "en",
   "meta": {
-    "siteTitle": "Abdulxaliq Eyvazov — Front-end & Game Developer",
-    "description": "Abdulxaliq Eyvazov — front-end and game developer portfolio."
+    "siteTitle": "Portfolio / AE",
+    "description": "Software engineer portfolio. Modern frontend web applications built with React, SCSS, and JavaScript; creative game development projects with Godot, and my current CV. Advanced support."
   },
   "nav": {
     "about": "About",
@@ -11,17 +11,10 @@
     "projects": "Projects",
     "contact": "Contact"
   },
-  "labels": {
-    "about": "About",
-    "skills": "Skills",
-    "journey": "Education",
-    "projects": "Projects",
-    "contact": "Contact"
-  },
   "hero": {
-    "hello": "Hi, I'm Abdulxaliq.",
-    "title": "FRONT-END\n& GAME\nDEVELOPER",
-    "sub": "Working with React, JavaScript, SCSS and Godot.",
+    "hello": "Hello, I'm Abdulkhalig.",
+    "title": "Front-end\n & Game\n Developer",
+    "sub": "Working with React, JavaScript, SCSS, and Godot.",
     "primary": "Continue",
     "secondary": "Contact",
     "location": "Azerbaijan / Khirdalan",
@@ -42,8 +35,8 @@
     "GITHUB"
   ],
   "about": {
-    "lead": "A developer learning front-end and game development.",
-    "copy": "I'm a first-year IT university student. On the web side I use React, JavaScript and SCSS; on the game side I mainly use Godot. I completed an Access Academy front-end course. I don't have public projects yet — this page is my portfolio space.",
+    "lead": "I am an enthusiastic developer learning and eager to grow in front-end and game development.",
+    "copy": "I am a 1st-year IT student at university. On the web side, I use React, JavaScript, and SCSS; for games, I mainly use Godot. I completed the Access Academy front-end course. I currently have no public projects — this page is my personal portfolio environment.",
     "facts": [
       {
         "label": "Languages",
@@ -55,7 +48,7 @@
       },
       {
         "label": "Education",
-        "value": "IT / 1st year"
+        "value": "IT / 1st Year"
       },
       {
         "label": "Status",
@@ -65,7 +58,7 @@
   },
   "skills": {
     "title": "Skills",
-    "copy": "Current self-assessment levels.",
+    "copy": "My current level.",
     "hover": "Hover",
     "level": "Level"
   },
@@ -76,33 +69,33 @@
         "id": "access",
         "institution": "Access Academy",
         "role": "Frontend Course",
-        "description": "Certified frontend development course. HTML, CSS, JS and modern web practices.",
+        "description": "Certified frontend development course. HTML, CSS, JS, and modern web practices.",
         "year": "2024-2025"
       },
       {
         "id": "university",
         "institution": "University",
-        "role": "1st-year IT student",
-        "description": "Information Technology major. Programming, algorithms and systems.",
-        "year": "2025 — ongoing"
+        "role": "1st Year IT Student",
+        "description": "Information Technology major. Programming, algorithms, and systems.",
+        "year": "2025 - present"
       }
     ]
   },
   "projects": {
     "title": "Projects",
     "emptyTitle": "Coming soon...",
-    "emptyCopy": "I built this portfolio myself — interactive, animated and fully JSON-driven. Future projects will appear here.",
+    "emptyCopy": "I built this portfolio myself — interactive, animated, and fully JSON-based. Future projects will be showcased here.",
     "ideas": "Next directions"
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Write anytime",
-    "signal": "Replies as soon as possible.",
+    "title": "Get in touch",
+    "signal": "Replies will be sent as soon as possible.",
     "copy": "Copy",
     "copied": "Copied"
   },
   "footer": {
-    "left": "Abdulxaliq Eyvazov",
+    "left": "Abdulkhalig Eyvazov",
     "center": "Front-end & Game Developer",
     "right": "© 2026"
   },

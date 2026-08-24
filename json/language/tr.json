@@ -1,8 +1,8 @@
 {
   "lang": "tr",
   "meta": {
-    "siteTitle": "Abdulxaliq Eyvazov — Front-end & Game Developer",
-    "description": "Abdulxaliq Eyvazov — front-end ve game developer portföyü."
+    "siteTitle": "Portfolyo / AE",
+    "description": "Yazılım mühendisi portfolyosu. React, SCSS, JavaScript ile modern frontend web uygulamaları; Godot ile kreatif oyun geliştirme projelerim ve güncel CV'm. Gelişmiş yardım."
   },
   "nav": {
     "about": "Hakkımda",
@@ -11,16 +11,9 @@
     "projects": "Projeler",
     "contact": "İletişim"
   },
-  "labels": {
-    "about": "Hakkımda",
-    "skills": "Yetenekler",
-    "journey": "Eğitim",
-    "projects": "Projeler",
-    "contact": "İletişim"
-  },
   "hero": {
-    "hello": "Merhaba, ben Abdulxaliq.",
-    "title": "FRONT-END\n& GAME\nDEVELOPER",
+    "hello": "Merhaba, ben Abdülhalik.",
+    "title": "Front-end\n & Game\n Developer",
     "sub": "React, JavaScript, SCSS ve Godot ile çalışıyorum.",
     "primary": "Devam et",
     "secondary": "İletişim",
@@ -42,20 +35,20 @@
     "GITHUB"
   ],
   "about": {
-    "lead": "Front-end ve game development öğrenen bir developerım.",
-    "copy": "IT alanında üniversitenin 1. sınıfındayım. Web tarafında React, JavaScript ve SCSS; oyun tarafında ağırlıklı olarak Godot kullanıyorum. Access Academy front-end kursunu tamamladım. Henüz herkese açık projem yok — bu sayfa kendi portföy alanım.",
+    "lead": "Front-end ve oyun geliştirme alanlarında kendimi geliştiren ve öğrenmeye istekli bir geliştiriciyim.",
+    "copy": "Üniversitede Bilişim Teknolojileri (IT) 1. sınıf öğrencisiyim. Web tarafında React, JavaScript ve SCSS; oyun tarafında ise ağırlıklı olarak Godot kullanıyorum. Access Academy front-end kursunu tamamladım. Şu an açık bir projem yok — bu sayfa kendi portfolyo ortamımdır.",
     "facts": [
       {
         "label": "Diller",
         "value": "AZ / TR / EN"
       },
       {
-        "label": "Yön",
-        "value": "Web + Game"
+        "label": "Alan",
+        "value": "Web + Oyun"
       },
       {
         "label": "Eğitim",
-        "value": "IT / 1. sınıf"
+        "value": "IT / 1. Sınıf"
       },
       {
         "label": "Durum",
@@ -65,7 +58,7 @@
   },
   "skills": {
     "title": "Yetenekler",
-    "copy": "Güncel öz değerlendirme seviyelerim.",
+    "copy": "Mevcut seviyem.",
     "hover": "Hover",
     "level": "Seviye"
   },
@@ -76,41 +69,41 @@
         "id": "access",
         "institution": "Access Academy",
         "role": "Frontend Kursu",
-        "description": "Sertifikalı frontend development kursu. HTML, CSS, JS ve modern web pratikleri.",
+        "description": "Sertifikalı frontend geliştirme kursu. HTML, CSS, JS ve modern web pratikleri.",
         "year": "2024-2025"
       },
       {
         "id": "university",
         "institution": "Üniversite",
-        "role": "IT 1. sınıf öğrencisi",
-        "description": "Bilgi Teknolojileri bölümü. Programlama, algoritmalar ve sistemler.",
-        "year": "2025 — devam ediyor"
+        "role": "IT 1. Sınıf Öğrencisi",
+        "description": "Bilişim Teknolojileri bölümü. Programlama, algoritmalar ve sistemler.",
+        "year": "2025 - devam ediyor"
       }
     ]
   },
   "projects": {
     "title": "Projeler",
     "emptyTitle": "Yakında...",
-    "emptyCopy": "Bu portföyü kendim yazdım – etkileşimli, animasyonlu ve tamamen JSON tabanlı. Gelecek projeler burada olacak.",
-    "ideas": "Sonraki yönler"
+    "emptyCopy": "Bu portfolyoyu kendim kodladım – etkileşimli, animasyonlu ve tamamen JSON tabanlı. Gelecekteki projeler burada yer alacak.",
+    "ideas": "Sonraki hedefler"
   },
   "contact": {
     "eyebrow": "İletişim",
     "title": "Yazabilirsin",
-    "signal": "En kısa sürede dönüş yapılacak.",
+    "signal": "En kısa sürede dönüş yapılacaktır.",
     "copy": "Kopyala",
     "copied": "Kopyalandı"
   },
   "footer": {
-    "left": "Abdulxaliq Eyvazov",
+    "left": "Abdülhalik Eyvazov",
     "center": "Front-end & Game Developer",
     "right": "© 2026"
   },
   "ui": {
-    "dark": "DARK",
-    "light": "LIGHT",
-    "menu": "MENU",
-    "close": "CLOSE",
+    "dark": "KOYU",
+    "light": "AÇIK",
+    "menu": "MENÜ",
+    "close": "KAPAT",
     "next": "Sonraki",
     "previous": "Önceki"
   }
